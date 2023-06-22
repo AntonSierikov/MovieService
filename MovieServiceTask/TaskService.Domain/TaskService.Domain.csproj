@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>TaskService.Domain</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\MovieDomain.Common\MovieDomain.Common.csproj" />
+    <ProjectReference Include="..\..\MovieDomain.DAL\MovieDomain.DAL.csproj" />
+    <ProjectReference Include="..\..\MovieDomain\MovieDomain.csproj" />
+  </ItemGroup>
+
+</Project>
